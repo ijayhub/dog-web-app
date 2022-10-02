@@ -15,13 +15,11 @@ const SearchInput = ({ title }) => {
 					console.log();
 					setName(data);
 				});
-		
-	}
+			}
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
-
+		
 		searchForDog()
 	}
 	

@@ -5,7 +5,7 @@ const Navbar = () => {
 			<header className=''>
 				<div className='bg-green-800 shadow-2xl p-6 mb-20'>
 					<nav className=' container mx-auto flex justify-between items-center'>
-						<h1 className='text-lg text-white lg:text-4xl font-bold focus:text-black '>
+						<h1 className='text-lg text-white lg:text-4xl font-bold hover:text-black '>
 							Dogg_ie
 						</h1>
 						<div>

@@ -6,16 +6,17 @@ import Navbar from './Navbar'
 const DogsDetails = () => {
     const [dogs,setDogs]= useState([])
     const {name} = useParams()
-useEffect(() => {
-	fetch(`https://api.thedogapi.com/v1/breeds/search?q=${name}`)
-		.then((res) => {
-			return res.json();
-		})
-		.then((data) => {
-			console.log(data);
-			setDogs(data);
-		});
-		},[name]);
+	useEffect(() => {
+		fetch(`https://api.thedogapi.com/v1/breeds/search?q=${name}`)
+			.then((res) => {
+				return res.json();
+			})
+			.then((data) => {
+				console.log(data);
+				setDogs(data);
+			});
+	}, [name]);
+	
 	return (
 		<>
 			<Navbar />

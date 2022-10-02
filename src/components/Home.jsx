@@ -7,9 +7,8 @@ import top from '../assets/top.png'
 
 const Home = () => {
     const [dogs, setDogs] = useState([]);
-    const [error, setError] = useState(null)
-    // const [name, setName] = useState('');
-    const [ispending, setIsPending] = useState(true)
+	const [error, setError] = useState(null)
+	const [ispending, setIsPending] = useState(true)
 
 	useEffect(() => {
 		fetch(`https://api.thedogapi.com/v1/breeds`)
@@ -20,8 +19,6 @@ const Home = () => {
 				setDogs(data);
 				setError(false);
 				setIsPending(false);
-
-				console.log(data);
 			})
 			.catch((err) => {
 				setError(err.message);
@@ -42,7 +39,6 @@ const Home = () => {
 						)}
 						<div>
 							<SearchInput
-								
 								title='Search for a dog'
 							/>
 						</div>
