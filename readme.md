@@ -36,9 +36,9 @@ This web app was created to allow users to search for dogs they like.
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/dog-web-app)
 
-* [Hosted Link]()
+* [Hosted Link](https://dog-web-app.netlify.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
