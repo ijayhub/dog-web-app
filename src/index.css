@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color:#f1f5f8;
+}
+.list:hover{
+    border-bottom: 3px solid black;
+    padding-top: 2px;
+}
+.card-size{
+    /* width: 100%; */
+    height: 100%;
+}
+.img-size{
+    width:100%;
+    height:70%;
+}
+.input-container{
+    width:50%;
+}
+
+.btn-width{
+    width:100%;
+}
+.input{
+    padding-left: 30px;
+}
+.search-container{
+    position:relative;
+}
+.search-container1{
+    position:absolute;
+    bottom:15px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width:600px){
+    .card-size{
+        margin:10px;
+    }
+    .about{
+        margin-top: 0;
+    }
+    .input-container{
+        width:100%;
+    }
+    
+}
