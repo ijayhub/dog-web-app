@@ -83,5 +83,5 @@ You may also see any lint errors in the console.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
- - Not yet done with the app
+ - Not yet done with the app still working on it
 
