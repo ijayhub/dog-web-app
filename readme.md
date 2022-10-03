@@ -30,7 +30,7 @@ This web app was created to allow users to search for dogs they like.
 
 ```
 1.The ability to navigate from the home page and to the about page.
-2.An input to search for cocktails-drinks.
+2.An input to search for dogs you like to know more about.
 3.A button that, when clicked, takes the user to get more information about dog.
 ```
 
