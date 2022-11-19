@@ -13,7 +13,7 @@ const DogTemplate = ({dogs}) => {
 									src={dog.image.url}
 									alt='dogs'
 									className='rounded-t-lg img-size '
-									loading='lazy'
+									loading="lazy"
 								/>
 								<div className='pl-4 leading-loose mt-8'>
 									<h3 className='font-extrabold text-center lg:text-lg'>

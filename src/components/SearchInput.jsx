@@ -3,17 +3,17 @@ import search1 from '../assets/search (2).svg';
 // import {useEffect} from 'react'
 
 const SearchInput = ({ title }) => {
-	const [name, setName]=React.useState('')
+	const [search, setSearch]=React.useState('')
 	
 	const searchForDog = () => {
 		
-			fetch(`https://api.thedogapi.com/v1/breeds/search?q=${name}`)
+			fetch(`https://api.thedogapi.com/v1/breeds/search?i=${search}`)
 				.then((res) => {
 					return res.json();
 				})
 				.then((data) => {
 					console.log();
-					setName(data);
+					setSearch(data);
 				});
 			}
 
@@ -34,8 +34,8 @@ const SearchInput = ({ title }) => {
 				<form onSubmit={handleSubmit}>
 					<input
 						type='text'
-						value={name}
-						onChange={(e) => setName(e.target.value)}
+						value={search}
+						onChange={(e) => setSearch(e.target.value)}
 						className='p-3 bg-green-100 w-full border-none outline-none rounded-md input'
 					/>
 				</form>
