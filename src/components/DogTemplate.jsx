@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const DogTemplate = ({dogs}) => {
     return (
 			<div>
-				<div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 '>
+				<div className='template-container'>
 					{dogs.map((dog) => (
 						<Link to={`/${dog.name}`} key={dog.id}>
 							<section className='card card-size shadow-2xl rounded-lg hover:bg-green-100 transition-all-200 '>

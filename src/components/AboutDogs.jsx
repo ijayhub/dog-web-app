@@ -6,8 +6,8 @@ const AboutDogs = () => {
   return (
 		<div>
 			<Navbar/>
-			<section className='container mx-auto'>
-				<h2 className='text-2xl text-center font-bold font-mono tracking-widest md:text-6xl text-green-900'>
+			<section className='max-w-7xl mx-auto'>
+				<h2 className='aboutdog'>
 					ABOUT Dogg_ie
 				</h2>
 				<div className='grid grid-cols-1 lg:grid-cols-2'>

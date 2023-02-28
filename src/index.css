@@ -40,6 +40,13 @@ body{
     padding-left: 10px;
     opacity: 0.5;
 }
+.aboutdog{
+    @apply text-2xl text-center font-bold font-mono tracking-widest md:text-6xl text-green-900
+}
+.template-container{
+    @apply grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 max-w-7xl mx-auto
+
+}
 
 
 @media only screen and (max-width:600px){
